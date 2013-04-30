@@ -1,0 +1,7 @@
+<h1>Tools</h1>
+
+= link_to "new tool", new_tool_path, class: 'btn'
+
+%ul
+  - @tools.each do |tool|
+    %li= link_to tool.name, tool
