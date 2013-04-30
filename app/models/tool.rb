@@ -34,7 +34,7 @@ class Tool < ActiveRecord::Base
           result << "#{var_name} = var('#{var_name}')\n"
         end
       else
-        result << line
+        result << "#{line}\n"
       end
     end
 
