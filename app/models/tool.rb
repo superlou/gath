@@ -24,6 +24,7 @@ class Tool < ActiveRecord::Base
     result = ''
 
     self.code.each_line do |line|
+      line.chomp!
       if m = line.match(/^%input ([\w\d]*)/)
         var_name = m[1]
 
