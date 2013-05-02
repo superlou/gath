@@ -16,3 +16,6 @@
 
 # Ignore temporary sage files
 /public/sage/*
+
+# Ignore IDE files
+.idea

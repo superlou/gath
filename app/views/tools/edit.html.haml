@@ -1,2 +1,17 @@
 %h1= "Edit #{@tool.name}"
-= render "form"
+
+.row-fluid
+  .span9
+    = render "form"
+
+  .span3
+    = form_tag tool_execute_path(@tool), method: :post, class: 'tool_execution_form' do
+      - @tool.inputs.each do |input|
+        = label_tag input
+        = text_field_tag "args[#{input}]"
+
+      %br
+      =submit_tag 'execute', class: 'btn'
+
+    #result
+      %pre

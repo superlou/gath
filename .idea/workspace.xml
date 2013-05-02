@@ -5,15 +5,15 @@
     <ignored path="calc.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367191054902" ignored="false" />
-    <file path="/routes.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367178612098" ignored="false" />
-    <file path="/tools_controller.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367278684584" ignored="false" />
+    <file path="/routes.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367452329259" ignored="false" />
+    <file path="/tools_controller.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367452536210" ignored="false" />
     <file path="/Gemfile" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367187254501" ignored="false" />
     <file path="/index.html.haml" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367178275491" ignored="false" />
     <file path="/new.html.haml" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367177126842" ignored="false" />
     <file path="/_form.html.haml" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367189560890" ignored="false" />
-    <file path="/tool.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367282323469" ignored="false" />
-    <file path="/show.html.haml" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367278605308" ignored="false" />
-    <file path="/edit.html.haml" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367178225027" ignored="false" />
+    <file path="/tool.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367450114697" ignored="false" />
+    <file path="/show.html.haml" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367453976856" ignored="false" />
+    <file path="/edit.html.haml" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367454182579" ignored="false" />
     <file path="/application.html.haml" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367191447725" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367191080360" ignored="false" />
     <file path="/application.js" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367187497332" ignored="false" />
@@ -22,6 +22,9 @@
     <file path="/20130428225304_change_inputs_to_input_list.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367189597939" ignored="false" />
     <file path="/20130428231738_remove_input_list_from_tools.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367191070754" ignored="false" />
     <file path="/exec.sage" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367279137970" ignored="false" />
+    <file path="$PROJECT_DIR$/config/database.yml" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367448071355" ignored="false" />
+    <file path="/sage_runner.rb" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367450097278" ignored="false" />
+    <file path="/tools.js.coffee" changelist="d1cd3dc3-f43b-46a6-b219-319d22796a71" time="1367453860601" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +46,37 @@
     <splitter split-orientation="horizontal" split-proportion="0.45173743">
       <split-first>
         <leaf>
-          <file leaf-file-name="tool.rb" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/models/tool.rb">
+          <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/tools/show.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="17" selection-start="501" selection-end="501" vertical-scroll-proportion="0.43093923">
+                <state line="21" column="10" selection-start="512" selection-end="512" vertical-scroll-proportion="0.36290324">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/tools/show.html.haml">
+          <file leaf-file-name="tool.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/tool.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="22" selection-start="455" selection-end="455" vertical-scroll-proportion="-12.5">
+                <state line="17" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tools_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/tools_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="49" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/routes.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -65,19 +86,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="tools_controller.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/controllers/tools_controller.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="43" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/tools/_form.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="19" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+                <state line="2" column="19" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.25">
                   <folding />
                 </state>
               </provider>
@@ -86,16 +98,25 @@
           <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/tools/edit.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="15" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.625">
+                <state line="16" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="-10.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="exec.sage" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/sage/exec.sage">
+          <file leaf-file-name="tools.js.coffee" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tools.js.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                <state line="10" column="53" selection-start="442" selection-end="442" vertical-scroll-proportion="0.16574585">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sage_runner.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/sage_runner.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="21" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -117,10 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/initializers/formtastic.rb" />
-        <option value="$PROJECT_DIR$/app/views/tools/edit.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/tools/index.html.haml" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/aced_rails.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -129,10 +146,14 @@
         <option value="$PROJECT_DIR$/db/migrate/20130428231738_remove_input_list_from_tools.rb" />
         <option value="$PROJECT_DIR$/app/views/tools/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/tools/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/tools_controller.rb" />
         <option value="$PROJECT_DIR$/public/sage/exec.sage" />
+        <option value="$PROJECT_DIR$/app/models/sage_runner.rb" />
         <option value="$PROJECT_DIR$/app/models/tool.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tools_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/tools.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/tools/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/tools/edit.html.haml" />
       </list>
     </option>
   </component>
@@ -313,6 +334,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
@@ -321,13 +364,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rake.db:migrate">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
@@ -660,18 +703,38 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="-8" width="1940" height="1072" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17395945" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17609392" sideWeight="0.67060083" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -744,21 +807,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tools.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.075250834" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/aced_rails.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.47658864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130428225007_add_inputs_to_tool.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.13020833" />
@@ -769,66 +817,64 @@
         <state line="2" column="46" selection-start="115" selection-end="115" vertical-scroll-proportion="0.052083332" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.41025642" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130428231738_remove_input_list_from_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="37" selection-start="107" selection-end="107" vertical-scroll-proportion="0.050167225" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tools/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="903" selection-end="903" vertical-scroll-proportion="0.2764977">
-          <folding />
+        <state line="16" column="6" selection-start="903" selection-end="903" vertical-scroll-proportion="0.2764977" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sage/exec.sage">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="15" selection-start="54" selection-end="54" vertical-scroll-proportion="0.049723756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.26519337">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="35" selection-start="91" selection-end="91" vertical-scroll-proportion="0.016816143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tools/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="455" selection-end="455" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tools/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.625">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tools_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="43" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0">
+        <state line="49" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sage/exec.sage">
+    <entry file="file://$PROJECT_DIR$/app/views/tools/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/sage_runner.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -837,7 +883,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/tool.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="501" selection-end="501" vertical-scroll-proportion="0.43093923">
+        <state line="17" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tools/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="346" selection-end="346" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tools/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="10" selection-start="512" selection-end="512" vertical-scroll-proportion="0.36290324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/tools.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="53" selection-start="442" selection-end="442" vertical-scroll-proportion="0.16574585">
           <folding />
         </state>
       </provider>

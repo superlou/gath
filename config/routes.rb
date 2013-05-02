@@ -4,6 +4,8 @@ Calc::Application.routes.draw do
     post 'execute', :as => 'execute'
   end
 
+  match 'api/execute' => 'tools#execute_remote', :via => :post
+
   root :to => 'tools#index'
 
   # The priority is based upon order of creation:

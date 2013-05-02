@@ -5,17 +5,18 @@
 %textarea#tool_code(ace-editor="" ace-theme="github" ace-mode="python" style="height:200px")
   = @tool.code
 
-%h2 Inputs
-= form_tag tool_execute_path(@tool), method: :post do
-  - @tool.inputs.each do |input|
-    = label_tag input
-    = text_field_tag "inputs[#{input}]"
+.row-fluid
+  .span3
+    %h2 Inputs
+    = form_tag tool_execute_path(@tool), method: :post, class: 'tool_execution_form' do
+      - @tool.inputs.each do |input|
+        = label_tag input
+        = text_field_tag "args[#{input}]"
 
-  %br
-  =submit_tag 'execute', class: 'btn'
+      %br
+      =submit_tag 'execute', class: 'btn'
 
-
-- if params["result"]
-  %h2 Result
-  %pre
-    = params["result"]
+  .span9
+    %h2 Result
+    #result
+      %pre

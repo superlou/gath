@@ -1,4 +1,6 @@
 class ToolsController < ApplicationController
+  respond_to :json
+
   def index
     @tools = Tool.all
   end
@@ -38,7 +40,16 @@ class ToolsController < ApplicationController
   def execute
     @tool = Tool.find(params[:tool_id])
 
-    result = @tool.execute(params[:inputs])
+    result = @tool.execute(params[:args])
     redirect_to tool_path(@tool, result: result)
+  end
+
+  def execute_remote
+    runner = SageRunner.new(params[:code])
+    runner.execute(params[:args])
+
+    respond_to do |format|
+      format.json { render :json => runner }
+    end
   end
 end
