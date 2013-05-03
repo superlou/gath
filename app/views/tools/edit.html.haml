@@ -7,7 +7,7 @@
   .span3
     = form_tag tool_execute_path(@tool), method: :post, class: 'tool_execution_form' do
       - @tool.inputs.each do |input|
-        = label_tag input
+        = label_tag "args[#{input}]", input
         = text_field_tag "args[#{input}]"
 
       %br
