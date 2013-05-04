@@ -1,3 +1,5 @@
+require 'securerandom'
+
 class SageRunner
   attr_accessor :code, :vars, :result
 
@@ -7,13 +9,19 @@ class SageRunner
   end
 
   def execute(args)
-    path = Rails.root.join('public', 'sage', 'exec.sage')
+    sage_path = Rails.root.join('public', 'sage', "exec_#{SecureRandom.uuid}.sage")
 
-    File.open(path, 'w') do |file|
+    File.open(sage_path, 'w') do |file|
       file << filtered_code(args)
     end
 
-    @result = `sage #{path} 2>&1`
+    @result = `sage #{sage_path} 2>&1`
+
+    File.delete(sage_path) if File.exist?(sage_path)
+    py_path = "#{sage_path.to_s.chomp!(File.extname(sage_path))}.py"
+    File.delete(py_path) if File.exist?(py_path)
+
+    @result
   end
 
   def filtered_code(args=nil)
